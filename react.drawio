@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T06:29:53.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hebYtRAUaEx98XKzYXQq" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-19T06:31:42.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GmaUjEISSEP7dXjwI7YZ" version="20.4.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="首次渲染">
     <mxGraphModel dx="782" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -512,12 +512,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_Eft74v4qNV6YpgjDfD-27" value="payload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="t_Eft74v4qNV6YpgjDfD-10" target="t_Eft74v4qNV6YpgjDfD-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="470" y="580" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="t_Eft74v4qNV6YpgjDfD-29" value="payload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="t_Eft74v4qNV6YpgjDfD-10" target="t_Eft74v4qNV6YpgjDfD-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t_Eft74v4qNV6YpgjDfD-10" value="update1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="390" width="80" height="60" as="geometry" />
@@ -541,7 +537,13 @@
           <mxGeometry x="430" y="280" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t_Eft74v4qNV6YpgjDfD-26" value="&amp;lt;App /&amp;gt;&lt;br&gt;=&amp;gt;&amp;nbsp;React.createElement(App, null) 返回的虚拟 DOM 对象&lt;br&gt;=&amp;gt;&amp;nbsp;&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; $$typeof: REACT_ELEMENT_TYPE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; key: key,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ref: ref,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; props: props,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; _owner: owner,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;=&amp;gt;&lt;/div&gt;&lt;div&gt;其中 type 为 function App，props 为写在标签上的属性集合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;align=left;spacingLeft=16;" vertex="1" parent="1">
-          <mxGeometry x="540" y="480" width="380" height="200" as="geometry" />
+          <mxGeometry x="600" y="440" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Eft74v4qNV6YpgjDfD-30" value="element" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="t_Eft74v4qNV6YpgjDfD-28" target="t_Eft74v4qNV6YpgjDfD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Eft74v4qNV6YpgjDfD-28" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="510" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
