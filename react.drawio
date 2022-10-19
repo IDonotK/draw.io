@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T06:24:15.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wN0LiVG9cUzYEo6dduGe" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-19T06:29:45.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="04wtjesus8gRnwJ_51Ro" version="20.4.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="首次渲染">
     <mxGraphModel dx="782" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -540,8 +540,8 @@
         <mxCell id="t_Eft74v4qNV6YpgjDfD-22" value="update4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="280" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t_Eft74v4qNV6YpgjDfD-26" value="&amp;lt;App /&amp;gt;&lt;br&gt;=&amp;gt;&amp;nbsp;React.createElement(App, null) 返回的虚拟 DOM 对象" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="540" y="480" width="380" height="150" as="geometry" />
+        <mxCell id="t_Eft74v4qNV6YpgjDfD-26" value="&amp;lt;App /&amp;gt;&lt;br&gt;=&amp;gt;&amp;nbsp;React.createElement(App, null) 返回的虚拟 DOM 对象&lt;br&gt;=&amp;gt;&amp;nbsp;&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; $$typeof: REACT_ELEMENT_TYPE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; key: key,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ref: ref,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; props: props,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; _owner: owner,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;=&amp;gt;&lt;/div&gt;&lt;div&gt;其中 type 为 function App，props 为写在标签上的属性集合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;align=left;spacingLeft=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="380" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
